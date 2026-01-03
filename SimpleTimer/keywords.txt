@@ -1,0 +1,4 @@
+SimpleTimer	KEYWORD1
+timerInit	KEYWORD2
+timerExpired	KEYWORD2
+
