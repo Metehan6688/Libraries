@@ -23,6 +23,7 @@ Allows you to run multiple functions at independent intervals without blocking t
 5. **&shed** is address of the instance
 6. **schedulerAddTask(&sched, ledBlink, 500);**  in there: **&shed** is address, **ledBlink** is your function(this can be change), 500(ms) is your interval value(you can change it)
 7. **In Loop:** **schedulerUpdate(&sched);** to check all tasks
+-This library allows you to schedule multiple functions to run at independent intervals. The scheduler continuously checks each task, and when its time is up, the assigned function is executed automatically, keeping the main loop free for other operations.
 
 ## Author
 - GitHub: Metehan6688
