@@ -1,0 +1,41 @@
+#######################################
+# Syntax Coloring Map For QTRsensorNew
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+QTRsensorNew	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+qtrSet	KEYWORD2
+qtrCalibrate	KEYWORD2
+qtrRead	KEYWORD2
+qtrReadDigital	KEYWORD2
+qtrPos	KEYWORD2
+qtrSetRef	KEYWORD2
+qtrSetLineBlack	KEYWORD2
+qtrSetInterval	KEYWORD2
+
+#######################################
+# Constants and Struct Members (LITERAL1)
+#######################################
+
+QTR_MAX_SENSORS	LITERAL1
+pins	LITERAL1
+sensorCount	LITERAL1
+minValues	LITERAL1
+maxValues	LITERAL1
+normalized	LITERAL1
+p	LITERAL1
+refValue	LITERAL1
+lineBlack	LITERAL1
+lastPosition	LITERAL1
+useNonBlocking	LITERAL1
+interval	LITERAL1
+leftSensorTouch	LITERAL1
+rightSensorTouch	LITERAL1
